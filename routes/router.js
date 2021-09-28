@@ -4,7 +4,7 @@ const userController = require('../controller/userCon')
 
 
 // const jwtHelper = require('../config/jwtHelper');
-
+// comments
 router.post('/register', userController.register);
 router.patch('/update-user', userController.update);
 router.get('/users',userController.getAll);
