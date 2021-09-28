@@ -2,20 +2,15 @@ require('dotenv').config();
 
 var firebaseConfig = {
 
-    apiKey:process.env.FIREBASE_CONFIG_API_KEY,
-    authDomain:process.env.FIREBASE_CONFIG_AUTH_DOMAIN,
-    databaseURL:process.env.FIREBASE_CONFIG_DATABASE_URL,
-    projectId:process.env.FIREBASE_CONFIG_PROJECT_ID,
-    storageBucket:process.env.FIREBASE_CONFIG_STORAGE_BUCKET,
-    messagingSenderId:process.env.FIREBASE_CONFIG_MESSAGING_SENDER_ID,
-    appId:process.env.FIREBASE_CONFIG_APP_ID,
-    measurementId:process.env.FIREBASE_CONFIG_MEASUREMENT_ID
+    apiKey:"AIzaSyDh94sYk0cGEvQ0Y6nZvdggbE7Idogc-Cc",
+    authDomain:"my-first-app-2a5dc.firebaseapp.com",
+    databaseURL:"https://my-first-app-2a5dc.firebaseio.com",
+    projectId:"my-first-app-2a5dc",
+    storageBucket:"my-first-app-2a5dc.appspot.com",
+    messagingSenderId:"477520860229",
+    appId:"1:477520860229:web:6a945227f19a9d481c7f2c",
+    measurementId:"G-VN0896MR92"
     
   };
-
- 
-
-
-
 
 module.exports = firebaseConfig;

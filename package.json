@@ -18,8 +18,9 @@
   "homepage": "https://github.com/Sassyprogrammer1/Node-Express-Firebase-CRUD#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "firebase": "^8.0.0"
+    "firebase": "^8.10.0"
   }
 }
