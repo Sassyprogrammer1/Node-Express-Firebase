@@ -5,6 +5,9 @@ const userController = require('../controller/userCon')
 
 // const jwtHelper = require('../config/jwtHelper');
 // comments
+router.get('/', (req,res) => {
+    res.send("Hello world!")
+});
 router.post('/register', userController.register);
 router.patch('/update-user', userController.update);
 router.get('/users',userController.getAll);

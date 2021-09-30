@@ -1,3 +1,4 @@
+const serverless = require('serverless-http');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -10,6 +11,8 @@ app.options('*', cors())
 app.use('/api',router);
 
 
-app.listen(3000,(req,res)=>{
+app.listen(3001,(req,res)=>{
     console.log("server is running on port 3000!");
 })
+
+module.exports.handler = serverless(app)
